@@ -36,7 +36,7 @@ function animationSteal()
         end
         
       task.spawn(function()
-        detectInput
+        detectInput()
       end)
     end
 end
